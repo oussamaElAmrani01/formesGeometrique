@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using formesGeometrique;
+
+Point x = new Point(1,2);
+Console.WriteLine("x = " + x.X);
+Console.WriteLine("x = " + x.Y);
